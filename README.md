@@ -26,7 +26,7 @@ Develop a dashboard with intuitive filters, allowing users to explore risk metri
 Build and implement algorithms for assessing creditworthiness, liquidity risk, and market risk. Generate comprehensive risk scores.
 
 Data Storage:
-Store the processed data in structured formats (e.g., CSV, JSON, or databases). For large-scale operations, integrate with MySQL to enable fast data querying.
+Store the processed data in structured formats (e.g., CSV, JSON, or databases). 
 
 Data Analysis and Visualization:
 Streamlit Dashboard:
@@ -44,7 +44,6 @@ Data Analysis:
 Technology and Tools:
 -> Python
 -> Streamlit (for interactive dashboards)
--> MySQL (optional, for large datasets)
 -> Pandas (for data manipulation)
 -> Scikit-learn (optional, for machine learning-based risk scoring models)
 -> Matplotlib/Plotly (for visualizations)
@@ -55,17 +54,9 @@ Packages and Libraries:
 import pandas as pd
 -> Streamlit: For creating the dashboard.
 
-import streamlit as st
--> MySQL Connector: For database integration.
-
-import mysql.connector
 -> Matplotlib/Plotly: For visualizing complex risk data.
+from sklearn.tree import DecisionTreeClassifier
 
-import matplotlib.pyplot as plt
-import plotly.express as px
--> Scikit-learn: For building predictive models for risk assessment (optional).
-
-from sklearn.ensemble import RandomForestClassifier
 Features:
 Risk Monitoring:
 -> Collect, preprocess, and analyze key risk indicators.
@@ -94,6 +85,4 @@ Insights Generation:
 -> Analyze high-risk areas to prioritize mitigation strategies.
 -> Monitor trends to preemptively address emerging risks.
 
-Contact:
-LinkedIn: https://www.linkedin.com/in/suruthi-boopalan/
-Email: suruthipriya50@gmail.com
+
