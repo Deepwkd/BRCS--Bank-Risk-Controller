@@ -344,10 +344,3 @@ elif opt == "ML Sentiment Analysis":
 
         # Display the bar chart
         st.bar_chart({'Positive': sentiment['pos'], 'Negative': sentiment['neg'], 'Neutral': sentiment['neu']})
-
-elif opt == "Conclusion":
-    st.markdown(f"## :blue[Conclusion]")
-    st.markdown(f"#### In the financial industry, Default occurs when a borrower fails to meet the legal obligations of a loan. The ML Model Streamlit App can accurately identify the customers who are likely to default on their loans based on their historical data.")
-    st.markdown(f"#### It also provides deep insights on the features which can help predict the customers who are likely to default on their loans.")
-    st.markdown(f"#### This will enable the financial institution to proactively manage their credit portfolio and ultimately reduce the risk of loan defaults.")
-    st.write(" ")
